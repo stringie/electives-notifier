@@ -33,7 +33,7 @@ def notify():
                 media = instance.media_new("/home/string/Music/cuckoo-clock.mp3")
                 player.set_media(media)
                 player.play()
-                time.sleep(10)
+                time.sleep(30)
                 player.stop()
                 f.close()
                 l = open('/home/string/Documents/susihtml.txt', 'w')
