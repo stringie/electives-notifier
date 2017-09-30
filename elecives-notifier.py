@@ -1,4 +1,6 @@
 import requests
+import vlc
+import time
 
 f = open('/home/string/Documents/susihtml.txt', 'r')
 html = f.read()
@@ -21,8 +23,12 @@ with requests.Session() as s:
         print "No change"
     else:
         print "Changed"
-        # f.close()
-        # l = open('/home/string/Documents/susihtml.txt', 'w')
-        # l.write(susi)
-
-    
+        instance = vlc.Instance('--input-repeat=9999')
+        player = instance.media_player_new()
+        media = instance.media_new("/home/string/Music/cuckoo-clock.mp3")
+        player.set_media(media)
+        player.play()
+        time.sleep(100)
+        f.close()
+        l = open('/home/string/Documents/susihtml.txt', 'w')
+        l.write(susi)
