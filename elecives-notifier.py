@@ -14,8 +14,8 @@ def notify():
             '__VSTATE'          : 'eJz7z8ifws%2fKZWhsamBhYWBgYsmfIsaUhkKIMDHyizHJsYdlFmcm5aRmpDAxA%2fnyDEAGKz%2b%2fGIscv0d%2bUWZVfl5JYo5jTmZ6HreWZnBlcUlqrl54apJeqCeIcgZKF%2bXnFOuhqWWSY4lXDHZiamgQAFoHtAlkFUtIakVJakoKEzvIfHlGbm0WJnkmFDXyzCB5TgLy3ATkeWEe4SegUBCmUJgfykoBAMHgO5k%3d',
             '__VIEWSTATE'       : '',
             '__EVENTVALIDATION' : '/wEWBAL+raDpAgKl1bKzCQK1qbSRCwLCi9reAwK9c0s7bLCB8tBILUhZIPSBMlGK',
-            'txtUserName'       : 'akaloferov',
-            'txtPassword'       : '9710134400',
+            'txtUserName'       : 'ENTER_USERNAME_HERE',
+            'txtPassword'       : 'ENTER_PASSWORD_HERE',
             'btnSubmit'         : ''
             }
 
